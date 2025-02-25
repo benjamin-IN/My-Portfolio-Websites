@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">My Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="menu-toggle">☰</button>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="me">Hi, I'm <span>NWANKWO Benjamin</span></h1>
+            <p class="me">Frontend Developer | Web Designer</p>
+            <a href="#projects" class="btn">View Projects</a> 
+        </div>
+    </section>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I’m Nwankwo Benjamin, an upcoming web developer passionate about building modern and responsive websites. I specialize in HTML, CSS, and JavaScript, constantly improving my skills to create dynamic and user-friendly web experiences. In addition to web development, I create content that showcases my skills, projects, and growth in the field.</p>
+    </section>
+
+    <section id="profile">
+        <h2>MY PROFILE</h2>
+        <div class="ctn">
+            <img src="me.jpg" alt="My profile">
+            <h3>My personal profile</h3>
+            <p>Upcoming web developer in creating different <span>websites</span></p>
+                <a href="https://www.tiktok.com/@ifechukwubenjamin7" target="_blank" class="tiktok-button">
+                    My Account on TikIok
+                </a>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <img src="R (2).jpg" alt="Project 1">
+            <h3>Me Coding</h3>
+            <p>Coding for a complete website for an Hour</p>
+        </div>
+        <div class="project">
+            <img src="R.jpg" alt="Project 2">
+            <h3>Portfolio Website</h3>
+            <p>Checking debugging on my website before i upload it on the internet</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="https://getform.io/f/bmdkkqwa" method="POST">
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="tel" name="phone" placeholder="Phone">
+            <input type="text" name="message" placeholder="Message" required>
+            
+            <input type="hidden" name="_gotcha" style="display:none !important">
+           
+            <input type="checkbox" name="subscribe" value="yes">
+            <input type="hidden" name="subscribe" value="no">
+ 
+            <input type="checkbox" name="gender" value="male" checked >
+            <input type="radio" name="gender" value="female">
+            <input type="radio" name="gender" value="other">
+
+            <select name="work-experience">
+                <option value="one-year">0-1 years</option>
+                <option value="one-five-years">1-5 years</option>
+            </select>
+            <button type="submit">Send</button>
+        </form>Message Me</button>
+        </form>
+    </section>
+    <div class="whatsapp-container">
+        <span class="whatsapp-tooltip">Chat with me!</span>
+        <a href="https://wa.me/2349012709720?text=Hi!%20I%20came%20from%20your%20portfolio%20site%20and%20want%20to%20connect." class="whatsapp-btn" target="_blank">
+            <img src="whatsapp.png" alt="WhatsApp">
+        </a>
+    </div>
+    <footer>
+        <p>&copy; 2025 Your Name. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
